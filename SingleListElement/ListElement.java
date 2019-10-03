@@ -17,7 +17,7 @@ public class ListElement
 	public void putData(int data)
 	{
 		
-		this.data=data;
+		this.datadata;
 		
 	}
 	
