@@ -221,6 +221,10 @@ public class DoubleLinkedList
 
         ListElement le5 = new ListElement();
         le5.setData(5);
+		
+		ListElement le6 = new ListElement();
+        le5.setData(6);
+		
 
         DoubleLinkedList dl = new DoubleLinkedList();
         dl.addElement(le1);
@@ -228,6 +232,8 @@ public class DoubleLinkedList
         dl.addElement(le3);
         dl.addElement(le4);
         dl.addElement(le5);
+		dl.addElement(le6);
+
         
 
         System.out.println("\nPrinting starting with head:");
